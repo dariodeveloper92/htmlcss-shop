@@ -6,47 +6,34 @@
 
 /*common*/
 .container {
-    position: relative;
     width: 80%;
-    margin: 70px 1300px;
+    margin: 70px auto;
 }
 /*fine common*/
 
 /*card*/
-.card_first {
-    position: absolute;
-    top: 30px;
-    left: 30px;
+.card {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    display: inline;
 } 
 
-.card_second {
-    position: absolute;
-    top: 30px;
-    left: 700px;
+.card_image_first {
+    display: inline;
+
 }
 
-.card_third {
-    position: absolute;
-    top: 30px;
-    left: 1370px;
+.card_image_second {
+    display: none;
 }
 
-.card_fourth {
-    position: absolute;
-    top: 1050px;
-    left: 30px;
+.card:hover .card_image_first {
+    display: none;
 }
 
-.card_fifth {
-    position: absolute;
-    top: 1050px;
-    left: 700px;
-}
-
-.card_sixth {
-    position: absolute;
-    top: 1050px;
-    left: 1370px;
+.card:hover .card_image_second {
+    display: inline;
 }
 /*fine card*/
 
