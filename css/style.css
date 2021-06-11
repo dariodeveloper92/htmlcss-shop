@@ -6,9 +6,9 @@
 
 /*common*/
 .container {
-    width: 80%;
-    margin: 0 auto;
     position: relative;
+    width: 80%;
+    margin: 70px 1300px;
 }
 /*fine common*/
 
