@@ -8,12 +8,21 @@
     width: 80%;
     margin: 0 auto;
     position: relative;
-    fon
+
 }
 
-.card {
+
+
+.card_first {
     position: absolute;
     top: 30px;
+    left: 30px;
+} 
+
+.card_second {
+    position: absolute;
+    top: 30px;
+    left: 700px;
 }
 
 .discount-red{
