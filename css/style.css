@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    top: 30px;
+}
+
+.card_image {
+    
+}
+
+.price {
+    color: red;
+}
+
+del {
+    text-decoration: line-through;
+}
