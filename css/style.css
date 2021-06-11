@@ -43,6 +43,12 @@
     left: 700px;
 }
 
+.card_sixth {
+    position: absolute;
+    top: 1050px;
+    left: 1370px;
+}
+
 .discount-red{
     position: absolute;
     bottom: 90px;
