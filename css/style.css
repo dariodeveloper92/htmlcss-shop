@@ -25,6 +25,18 @@
     left: 700px;
 }
 
+.card_third {
+    position: absolute;
+    top: 30px;
+    left: 1370px;
+}
+
+.card_fourth {
+    position: absolute;
+    top: 1050px;
+    left: 30px;
+}
+
 .discount-red{
     position: absolute;
     bottom: 90px;
