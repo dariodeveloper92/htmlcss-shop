@@ -75,8 +75,7 @@
     height: 50px;
     line-height: 50px;
     color: white;
-    text-align: center;
-      
+    text-align: center; 
 }
 /*fine sconti*/
 
@@ -94,7 +93,7 @@
 }
 /*fine heart*/
 
-
+/* card text */
 .brand {
     position: ;
     bottom: 50px;
@@ -123,7 +122,7 @@
 del {
     text-decoration: line-through;
 }
-/*fine price*/
+/* card text */
 
 
 
