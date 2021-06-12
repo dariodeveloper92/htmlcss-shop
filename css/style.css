@@ -8,20 +8,20 @@
 .container {
     width: 80%;
     margin: 70px auto;
+    font-size: larger;
 }
 /*fine common*/
 
 /*card*/
 .card {
     position: relative;
-    width: 200px;
-    height: 400px;
-    display: inline;
+    width: 300px;
+    display: inline-block;
+    margin: 30px 200px;
 } 
 
 .card_image_first {
     display: inline;
-
 }
 
 .card_image_second {
@@ -35,55 +35,95 @@
 .card:hover .card_image_second {
     display: inline;
 }
+
+.prima .seconda .terza .quarta .quinta .sesta {
+    display: inline;
+}
 /*fine card*/
 
 /*sconti*/
-.discount-red{
+.card .discount-red {
     position: absolute;
-    bottom: 90px;
+    bottom: 190px;
+    left: 0px; 
     background-color: red;
-    margin: 0px;
-    width: 50px;
-    height: 25px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
     color: white;
     text-align: center;
-    font-size: 20px;
 }
 
-.discount-green{
+.card .discount-green{
     position: absolute;
-    bottom: 90px;
+    bottom: 190px;
+    left: 120px; 
     background-color: rgb(3, 165, 111);
-    margin: 0;
-    width: 120px;
-    height: 25px;
-    left: 60px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;   
+}
+
+.card .discount-green-last {
+    position: absolute;
+    bottom: 190px;
+    left: 0; 
+    background-color: rgb(3, 165, 111);
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
     color: white;
     text-align: center;
-    font-size: 20px;
+      
 }
 /*fine sconti*/
 
 /*heart*/
-.heart {
+.card .heart {
     position: absolute;
-    top: 40px;
-    right: 0;
-    background-color: white;
-    margin: 0;
     width: 70px;
     height: 70px;
+    line-height: 70px;
+    top: 60px;
+    left: 570px;
+    background-color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
 }
 /*fine heart*/
 
-/* price*/
+
+.brand {
+    position: ;
+    bottom: 50px;
+    left: 40px; 
+}
+
+.product-name {
+    position: ;
+    top: 1010px;
+    left: 40px; 
+}
+
 .price {
+    position: ;
+    top: 1100px;
+    left: 40px; 
     color: red;
+}
+
+.original-price {
+    position: ;
+    top: 1100px;
+    left: 140px; 
 }
 
 del {
     text-decoration: line-through;
 }
 /*fine price*/
+
+
+
