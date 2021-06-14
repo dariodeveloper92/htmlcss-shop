@@ -95,26 +95,22 @@
 
 /* card text */
 .brand {
-    position: ;
     bottom: 50px;
     left: 40px; 
 }
 
 .product-name {
-    position: ;
     top: 1010px;
     left: 40px; 
 }
 
 .price {
-    position: ;
     top: 1100px;
     left: 40px; 
     color: red;
 }
 
 .original-price {
-    position: ;
     top: 1100px;
     left: 140px; 
 }
@@ -123,6 +119,3 @@ del {
     text-decoration: line-through;
 }
 /* card text */
-
-
-
